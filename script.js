@@ -2,20 +2,12 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.7.1/firebase-app.js";
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.7.1/firebase-analytics.js";
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/11.7.1/firebase-auth.js";
+import { firebaseConfig } from './config.js';
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-  apiKey: "AIzaSyCuHYRH4cRqITL6FMJ1GTQ99ihVxfnDEf8",
-  authDomain: "loginsignup-63f01.firebaseapp.com",
-  projectId: "loginsignup-63f01",
-  storageBucket: "loginsignup-63f01.firebasestorage.app",
-  messagingSenderId: "1095713402917",
-  appId: "1:1095713402917:web:cdf4cc7438ed3d5ec30fcc",
-  measurementId: "G-DQ77TT9X9L"
-};
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
